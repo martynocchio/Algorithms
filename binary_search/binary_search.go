@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"sort"
 )
 
@@ -27,6 +26,4 @@ func binarySearch(arr []int, elem int) (exists bool, num int) {
 }
 
 func main() {
-	testArray := []int{5, 3, 2, 6, 5, 3, 6, 8, 7, 6, 4, 7, 3, 6, 8, 9, 4, 6, 3}
-	fmt.Println(binarySearch(testArray, 8))
 }
