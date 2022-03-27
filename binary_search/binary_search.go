@@ -24,6 +24,3 @@ func binarySearch(arr []int, elem int) (exists bool, num int) {
 	}
 	return false, 0
 }
-
-func main() {
-}
