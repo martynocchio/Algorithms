@@ -13,5 +13,6 @@ func reverseString(str string) string {
 }
 
 func main() {
-	fmt.Println(reverseString("hello world!"))
+	fmt.Println(reverseString("hello world!")) // !dlrow olleh
+
 }
