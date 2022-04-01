@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func intersection(a, b []int) []int {
 	counter := make(map[int]int)
 	var result []int
@@ -21,10 +19,4 @@ func intersection(a, b []int) []int {
 		}
 	}
 	return result
-}
-
-func main() {
-	a := []int{4, 3, 2, 1, 5}
-	b := []int{4, 2, 1, 5}
-	fmt.Println(intersection(a, b))
 }
