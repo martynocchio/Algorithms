@@ -1,6 +1,6 @@
 package main
 
-func selectionSort(arr []int) []int {
+func insertionSort(arr []int) []int {
 	for i := 0; i < len(arr); i++ {
 		for j := 0; j < i; j++ {
 			if arr[j] > arr[i] {
