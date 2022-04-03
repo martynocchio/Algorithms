@@ -66,22 +66,3 @@ func main() {
 	ll.reverseLinkedList()
 	ll.PrintList()
 }
-
-//func (l *linkedList) deleteWithValue(val int) {
-//	previousToDelete := l.head
-//	if previousToDelete.next.data != val {
-//		previousToDelete = previousToDelete.next
-//	}
-//	previousToDelete.next = previousToDelete.next.next
-//	l.length--
-//}
-
-//func (l linkedList) printListData() {
-//	toPrint := l.head
-//	for l.length != 0 {
-//		fmt.Printf("%d ", toPrint.data)
-//		toPrint = toPrint.next
-//		l.length--
-//	}
-//	fmt.Println("\n")
-//}
